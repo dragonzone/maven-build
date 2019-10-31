@@ -1,4 +1,4 @@
-FROM maven:3.5.2-jdk-8
+FROM maven:3.6.2-jdk-11
 
 RUN mkdir -p /build/ && \
     chown -R 111:65534 /build/ && \
