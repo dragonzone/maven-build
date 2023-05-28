@@ -1,4 +1,4 @@
-FROM maven:3.9.2-eclipse-temurin-11
+FROM maven:3.8-jdk-11
 
 RUN mkdir -p /build/ && \
     chown -R 111:65534 /build/ && \
